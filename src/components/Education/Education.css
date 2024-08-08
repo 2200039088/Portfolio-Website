@@ -29,59 +29,63 @@
     z-index : -1;
 
 }
+.education-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+}
 
-.education-format
-{
+.education-format {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap : 20px;
+    align-items: center;
+    justify-content: space-between; /* Add this to evenly space items */
+    gap: 20px;
     padding: 60px;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
     cursor: pointer;
+    min-height: 400px; /* Ensure all containers have the same height */
+    text-align: center;
 }
 
-.education-container
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap : 15px;
-    margin-bottom: 10px;
+.education-format h3, 
+.education-format h2, 
+.education-format p {
+    margin: 0;
+    padding: 0;
 }
 
-.education-format h3
-{
+.education-format h3 {
     font-size: 28px;
     font-weight: 600;
-
+    margin-bottom: 10px; /* Add margin to space out elements evenly */
 }
 
-.education-format h2
-{
+.education-format h2 {
     font-size: 38px;
     font-weight: 800;
     background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 10px; /* Add margin to space out elements evenly */
 }
 
-.education-format p
-{
-    color : white;
+.education-format p {
+    color: white;
     font-size: 25px;
     line-height: 40px;
     max-width: 300px;
-
+    margin-bottom: 10px; /* Add margin to space out elements evenly */
 }
 
-.education-format:hover
-{
+.education-format:hover {
     border: 2px solid #B415FF;
-    background-image: linear-gradient(45deg, #3f0028 , #582300);
+    background-image: linear-gradient(45deg, #3f0028, #582300);
     transform: scale(1.05);
     transition: 0.4s;
-
 }

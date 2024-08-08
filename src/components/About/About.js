@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div className='about'>
       <div className="about-title">
-        <h1>About Me</h1>
+        <h1>About me</h1>
         <img src='' alt='Theme pattern' />
       </div>   
       <div className="about-sections">
         <div className="about-left">
-            <img src='' alt='Profile Photo' />
+            <img src='' alt='Profile pic' />
         </div>
 
         <div className="about-right">

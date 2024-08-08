@@ -5,10 +5,12 @@ const Hero = () => {
     return (
         <div className="hero">
             <img src='' alt="Profile pic here" />
-            <h1><span> I'm Vineel Arepalli </span>, <br/> CSE undergrad Class of 2026 </h1>
+            <h1><span> I'm Vineel Arepalli </span>, <br/> CSE undergrad class of 2026 </h1>
             <p> I'm a full stack developer and an aspiring DevOps Engineer</p>
             <div className="hero-action">
-                <div className="hero-connect">Connect with me</div>
+                <div className="hero-connect">
+                    <a href="https://www.linkedin.com/in/arepallivineel/" style={{ textDecoration: 'none', color: 'white' }}>Connect with me</a>
+                </div>
                 <div className="hero-resume">My resume</div>
             </div>
         </div>
