@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.background-img {
+  background-image: url('./assets/home.jpg'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* Stack children elements vertically */
+  justify-content: center;
+  align-items: center; /* Center the container itself */
+  color: white;
+}
+
+.caption-container {
+  display: flex;
+  flex-direction: column; /* Stack caption elements vertically */
+  align-items: flex-start; /* Align items to the start (left) of the container */
+  width: 100%; /* Ensure it spans the full width for alignment */
+  max-width: 600px; /* Optional: Limit width to prevent too wide alignment */
+  padding: 0 20px; /* Optional: Add some padding for better visual alignment */
+  position: absolute;
+  left: 60%;
+  top: 20vh;
+}
+
+.caption {
+  background: none;
+  padding: 10px 15px; /* Adjust padding for spacing */
+  border-radius: 10px;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  margin: 5px 0; /* Adjust margin to reduce vertical spacing */
+  line-height: 1.2; /* Adjust line-height for tighter spacing within each caption */
+  text-align: left; /* Ensure text within each caption is left-aligned */
+}
+
+.button-container
+{
+  display: flex;
+  position: absolute;
+  left: 62%;
+  top: 55vh;
+}
+
+
+
+.button {
+  background-color: transparent; /* Transparent background by default */
+  border: none;
+  border-radius: 50px;
+  color: black; /* Default text color for visibility */
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.student-button {
+  color: white;
+  border: 2px solid #008CBA;
+}
+
+.student-button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.youtuber-button {
+  color: white;
+  border: 2px solid #f44336;
+}
+
+.youtuber-button:hover {
+  background-color: #f44336;
+  color: white;
+}
