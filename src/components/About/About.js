@@ -35,6 +35,10 @@ const About = () => {
                     <hr />
                     <p>Version Control: Git, GitHub</p>
                 </div>
+                <div className="about-skill">
+                    <hr />
+                    <p>Cloud Technologies: AWS </p>
+                </div>
             </div>
         </div>
       </div>

@@ -20,8 +20,9 @@ const Experience = () => {
               <div className="experience-right">
                 <h1>{internship.s_name}</h1>
                 <h2>{internship.s_company}</h2>
-                <p>{internship.s_desc}</p>
                 <p>{internship.s_date}</p>
+                <p>{internship.s_desc}</p>
+                
               </div>
             </div>
           );

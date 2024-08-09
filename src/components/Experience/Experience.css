@@ -49,7 +49,7 @@
 .experience-left {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: 20px;
 }
 

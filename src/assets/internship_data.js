@@ -6,7 +6,7 @@ const internship_data = [
         s_name : "SWE Intern",
         s_company : "Lineysha and Thevan Software Technologies",
         s_desc  : "During my final year of diploma studies, I interned at Lineysha and Thevan Technologies as a SWE Intern focusing on Python full stack development. Contributing to a project on Credit Card Fraud Detection System, I enhanced my Python and Django skills while gaining insights into professional work environments. This experience sharpened my problem-solving abilities and provided practical exposure to real-world software development challenges.",
-        s_date : "Jul 2023 - Dec 2023"
+        s_date : "July 2023 - December 2023"
     },
     {
         s_no : "02",
@@ -19,7 +19,7 @@ const internship_data = [
         s_no : "03",
         s_name : "Student Intern",
         s_company : "AICTE and Eduskills - Cloud Virtual Internship",
-        s_desc  : "xcited to share that I’ve completed the virtual internship on AWS Cloud, offered by AICTE in collaboration with Eduskills! This immersive experience allowed me to dive deep into cloud computing, mastering essential AWS services and gaining valuable insights into cloud infrastructure management. I’m grateful for the opportunity to enhance my skills in such a dynamic learning environment and proud to be part of a program that bridges the gap between academia and industry. Massive thanks to AICTE and Eduskills for their commitment to empowering students and professionals with cutting-edge technology education. I’m eager to apply the knowledge and skills gained to future endeavors!",
+        s_desc  : "Excited to share that I’ve completed the virtual internship on AWS Cloud, offered by AICTE in collaboration with Eduskills! This immersive experience allowed me to dive deep into cloud computing, mastering essential AWS services and gaining valuable insights into cloud infrastructure management. I’m grateful for the opportunity to enhance my skills in such a dynamic learning environment and proud to be part of a program that bridges the gap between academia and industry. Massive thanks to AICTE and Eduskills for their commitment to empowering students and professionals with cutting-edge technology education. I’m eager to apply the knowledge and skills gained to future endeavors!",
         s_date : "January 2024 - March 2024"
     },
     {
