@@ -1,0 +1,135 @@
+.certification {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 80px;
+  }
+  
+  .certification-title {
+    position: relative;
+  }
+  
+  .certification-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+  }
+  
+  .certification-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .certification-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns grid */
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .certification-format {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    height: auto;
+    min-height: 150px; /* Set a minimum height for content */
+    box-sizing: border-box;
+  }
+  
+  .certification-left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+  }
+  
+  .certification-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    flex-grow: 1;
+  }
+  
+  .certification-format:hover {
+    border: 2px solid #B415FF;
+    background-image: linear-gradient(45deg, #3f0028, #582300);
+    transform: scale(1.05);
+    transition: 0.4s;
+  }
+  
+  .certification-format h3 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .certification-format h1 {
+    font-size: 32px;
+    font-weight: 800;
+    background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .certification-format p {
+    color: white;
+    font-size: 15px;
+    line-height: 28px;
+    width: 100%;
+  }
+  
+  .show-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    min-height: 150px;
+  }
+  
+  .show-more-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    font-size: 80px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+    min-height: 150px;
+    width: 100%;
+  }
+
+  .show-more-button p{
+    font-size: 40px;
+    font-weight: 800;
+    background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+

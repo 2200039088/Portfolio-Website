@@ -4,9 +4,9 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 100px;
+    margin: 80px 50px;
+    padding: 0 40px; /* Added padding */
 }
-
 .about-title {
     position: relative;
 }
@@ -27,6 +27,7 @@
 .about-sections {
     display: flex;
     gap: 80px;
+    
 }
 
 .about-right {
