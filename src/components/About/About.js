@@ -1,12 +1,13 @@
 import React from 'react'
 import './About.css'
+import theme_pattern from '../../assets/theme_pattern.svg'
 
 const About = () => {
   return (
     <div className='about'>
           <div className="about-title">
             <h1>About me</h1>
-            <img src='' alt='Theme pattern' />
+            <img src={theme_pattern} alt='Theme pattern' />
           </div>   
       <div className="about-sections">
         <div className="about-left">
@@ -45,18 +46,18 @@ const About = () => {
       
       <div className="about-acheivements">
         <div className="about-acheivement">
-            <h1>3+</h1>
-            <p>INTERNSHIPS COMPLETED<br/><p>(Physical + Virtual)</p></p>
-        </div>
-        <hr/>
-        <div className="about-acheivement">
-            <h1>3+</h1>
-            <p>PROJECTS COMPLETED</p>
+            <h1>1+</h1>
+            <p>CERTIFICATIONS COMPLETED<br/></p>
         </div>
         <hr/>
         <div className="about-acheivement">
             <h1>2+</h1>
-            <p>CERTIFICATIONS COMPLETED</p>
+            <p>PROJECTS COMPLETED</p>
+        </div>
+        <hr/>
+        <div className="about-acheivement">
+            <h1>3+</h1>
+            <p>INTERNSHIPS COMPLETED<p>(Physical + Virtual)</p></p>
         </div>
       </div>
     </div>

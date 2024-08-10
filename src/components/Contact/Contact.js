@@ -1,12 +1,15 @@
 import React from 'react'
 import './Contact.css'
+import mail_icon from '../../assets/mail_icon.svg'
+import call_icon from '../../assets/call_icon.svg'
+import location_icon from '../../assets/location_icon.svg'
 
 const Contact = () => {
   return (
     <div className='contact'>
         <div className="contact-title">
-            <h2> Did you hover on everything ? </h2>
-            <h1> Get in touch </h1>
+            <h1> So far, Did you hover on everything ? </h1>
+            <h2> Get in touch </h2>
             <img src='' alt='Theme-pattern' />
         </div>
 
@@ -17,15 +20,15 @@ const Contact = () => {
                 <div className="contact-details">
 
                     <div className="contact-detail">
-                        <img src='' alt='mail-logo' /> <p> vineelcse@gmail.com</p>
+                        <img src={mail_icon} alt='mail-logo' /> <p> vineelcse@gmail.com</p>
                     </div>
 
                     <div className="contact-detail">
-                        <img src='' alt='phone-logo' /> <p> +91 9705671274</p>                
+                        <img src={call_icon} alt='phone-logo' /> <p> +91 970 567 1274</p>                
                     </div>
 
                     <div className="contact-detail">
-                    <img src='' alt='location-logo' /> <p> Andhra Pradesh , India </p>            
+                    <img src={location_icon} alt='location-logo' /> <p> Andhra Pradesh , India </p>            
                     </div>                    
             </div>
             </div>

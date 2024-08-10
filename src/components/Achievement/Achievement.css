@@ -35,6 +35,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    transform: translateX(-350px) translateY(-25px); /* Move the image up by 10px */
     z-index: -1;
 }
 

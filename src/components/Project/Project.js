@@ -1,13 +1,15 @@
 import React from 'react';
 import './Project.css';
 import project_data from '../../assets/project_data';
+import theme_pattern from '../../assets/theme_pattern.svg'
+import arrow_icon from '../../assets/arrow_icon.svg'
 
 const Project = () => {
   return (
     <div className='project'>
       <div className="project-title">
         <h1>Projects</h1>
-        <img src='' alt='theme-pattern' />
+        <img src={theme_pattern} alt='theme-pattern' />
       </div>
 
       <div className='project-container'>
@@ -34,7 +36,7 @@ const Project = () => {
         onClick={() => window.open("https://github.com/2200039088", "_blank")}
       >
         <p>Show More</p>
-        <img src='' alt='-->' />
+        <img src={arrow_icon} alt='-->' />
       </div>
     </div>
   );

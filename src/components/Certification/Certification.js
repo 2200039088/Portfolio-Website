@@ -1,13 +1,14 @@
 import React from 'react';
 import './Certification.css';
 import certification_data from '../../assets/certification_data';
+import theme_pattern from '../../assets/theme_pattern.svg'
 
 const Certification = () => {
   return (
     <div className='certification'>
       <div className="certification-title">
         <h1>Certifications</h1>
-        <img src='' alt='theme-pattern' />
+        <img src={theme_pattern} alt='theme-pattern' />
       </div>
 
       <div className='certification-container'>

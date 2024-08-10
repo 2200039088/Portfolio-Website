@@ -1,13 +1,15 @@
 import React from 'react';
 import './Experience.css';
 import internship_data from '../../assets/internship_data';
+import theme_pattern from '../../assets/theme_pattern.svg'
+
 
 const Experience = () => {
   return (
     <div className='experience'>
       <div className="experience-title">
         <h1>Experience</h1>
-        <img src='' alt='theme-pattern' />
+        <img src={theme_pattern} alt='theme-pattern' />
       </div>
 
       <div className="experience-container">

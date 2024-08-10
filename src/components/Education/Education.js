@@ -1,13 +1,14 @@
 import React from 'react'
 import Education_Data from '../../assets/education_data'
 import './Education.css'
+import theme_pattern from '../../assets/theme_pattern.svg'
 
 const Education = () => {
   return (
     <div className='education'>
       <div className="education-title">
       <h1>Education</h1>
-      <img src='' alt='theme-pattern' />
+      <img src={theme_pattern} alt='theme-pattern' />
       </div>
 
       <div className="education-container">

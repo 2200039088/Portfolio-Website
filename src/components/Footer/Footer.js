@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer-top'>
             <div className="footer-top-left">
                 <img src='' alt='name-logo'/>
-                <p>A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog </p>
+                <p>Dear Recruiter, <br /> Congratulations in advance! <br/>You are about to bring a valuable asset to your organization.</p>
             </div>
         </div>
 

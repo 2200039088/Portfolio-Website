@@ -1,6 +1,7 @@
 import React from 'react';
 import './Achievement.css';
 import achievement_data from '../../assets/achievement_data';
+import theme_pattern from '../../assets/theme_pattern.svg'
 
 const Achievement = () => {
   return (
@@ -8,7 +9,7 @@ const Achievement = () => {
       <div className="achievement-title">
         <h2> Hmmm, that’s not the whole story—he’s far from a bookworm!</h2>
         <h1>Achievements</h1>
-        <img src='' alt='theme-pattern' />
+        <img src={theme_pattern} alt='theme-pattern' />
       </div>
 
       <div className='achievement-container'>
