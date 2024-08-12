@@ -8,7 +8,9 @@
 
 .hero img
 {
-    margin-top: 150px ;
+    max-width: 300px;
+    border-radius: 10%;
+    margin-bottom: -45px;
 }
 
 .hero h1

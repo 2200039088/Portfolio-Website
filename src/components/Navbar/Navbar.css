@@ -1,6 +1,6 @@
 /* Default navbar style */
 .navbar {
-    position: fixed;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,4 +41,24 @@
 
 .nav-connect:hover {
     transform: scale(1.05);
+}
+
+.nav-menu li
+{
+    display: flex;
+    flex-direction: column;
+    gap : 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img
+{
+    display: flex;
+    margin: auto;
+}
+
+.anchor-link
+{
+    text-decoration: none;
+    color: white;
 }

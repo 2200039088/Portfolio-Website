@@ -4,6 +4,8 @@ import project_data from '../../assets/project_data';
 import theme_pattern from '../../assets/theme_pattern.svg'
 import arrow_icon from '../../assets/arrow_icon.svg'
 
+
+
 const Project = () => {
   return (
     <div className='project'>

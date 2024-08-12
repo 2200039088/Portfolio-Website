@@ -35,6 +35,7 @@
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .project-item img {
@@ -42,6 +43,7 @@
     width: 419px;
     height: 280px;
     transition: 0.3s;
+    object-fit:cover
 }
 
 .project-item:hover img {
@@ -49,6 +51,7 @@
     border: 4px solid #ff00ff;
     border-radius: 10px;
     transition: 0.3s;
+    object-fit:cover
 }
 
 .project-overlay {

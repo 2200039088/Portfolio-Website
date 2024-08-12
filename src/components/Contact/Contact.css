@@ -30,6 +30,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    transform: translateX(-220px) translateY(-50px); /* Move the image up by 10px */
     z-index: -1;
   }
 

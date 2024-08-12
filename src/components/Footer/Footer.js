@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer-top'>
             <div className="footer-top-left">
                 <img src='' alt='name-logo'/>
-                <p>Dear Recruiter, <br /> Congratulations in advance! <br/>You are about to bring a valuable asset to your organization.</p>
+                <p>Dear Recruiter, <br /> Congratulations in advance! <br/>You are about to bring 70kgs of awesomeness to your organization.<br/> Because ain't nobody like him</p>
             </div>
         </div>
 
