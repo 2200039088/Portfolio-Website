@@ -16,12 +16,24 @@
     font-size: 80px;
     font-weight: 600;
 }
+.achievement-title h2 {
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
 
 .achievement-title img {
     position: absolute;
     bottom: 0;
     right: 0;
-    transform: translateY(-25px);
+    transform: translateY(-25px) translateX(-220px);
     z-index: -1;
 }
 
@@ -117,3 +129,62 @@
     border-color: #B415FF;
     background-image: linear-gradient(45deg, #3f0028 , #582300);
 }
+
+@media (max-width: 768px) {
+
+    .achievement
+    {
+        margin: 10% 10%;
+    }
+
+    .achievement-title h2
+    {
+
+        margin: 10%;
+
+
+
+    }
+
+    .achievement-container {
+      grid-template-columns: 1fr;
+      gap: 25px;
+      margin: 40px;
+      width: 100%; /* Set width to full */
+      max-width: 100%; /* Ensure it uses the full available width */
+      padding: 0 10px; /* Add padding to reduce edge contact */
+    }
+  
+    .achievement-item {
+      width: 100%; /* Ensure each item uses the full container width */
+    }
+  
+    .achievement-title h1 {
+      font-size: 40px;
+    }
+  
+    .achievement-title img {
+      max-width: 200px ;
+      transform: translateX(-10px) translateY(10px);
+    }
+
+    .achievement-overlay {
+        opacity: 1; /* Set overlay to be visible by default */
+        background-color: transparent; /* Make the background transparent initially */
+        justify-content: flex-end; /* Align content at the bottom */
+        padding: 10px; /* Adjust padding for spacing */
+    }
+    
+    .achievement-overlay > *:not(.achievement-name-overlay) {
+        display: none; /* Hide all elements except the title */
+    }
+    
+    .achievement-item:hover .achievement-overlay {
+        background-color: rgba(0, 0, 0, 0.7); /* Darken the background on hover */
+        justify-content: center; /* Center content on hover */
+    }
+    
+    .achievement-item:hover .achievement-overlay > * {
+        display: flex; /* Show all elements on hover */
+    }
+  }

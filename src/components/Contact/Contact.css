@@ -148,8 +148,77 @@
 
   }
 
+  @media (max-width: 768px) {
+
+    .contact
+    {
+      margin: 10%;
+    }
+
+
+
+    .contact h1
+    {
+      text-align: center;
+    
+      font-size: 40px;
+    font-weight: 600;
+    }
+
+    .contact-title {
+        position: relative;
+        margin-bottom: 0;
+      }
+
+     .contact-title h2
+     {
+        display: none;
+     } 
+
+    .contact-title img {
+       display: none;
+      }
+
+    .contact-section {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center;
+      gap: 40px; /* Add some space between the sections */
+    }
+
+    .contact-left h1
+    {
+      font-size: 50px;
+    }
+  
+    .contact-right {
+      margin-left: -50px;   
+      max-width: 100%; /* Ensure the form takes the full width */
+    }
+
+  .contact-right label 
+  {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+
+  }
+
 
   
+    .contact-right input
+    {
+      width : 110%
+    }
+    .contact-right textarea 
+    {  
+      width: 100%; /* Make input fields take full width */
+    }
   
 
-  
+    .contact-submit
+  {
+    position: relative;
+    transform: translateX(25px);
+
+  }
+  }

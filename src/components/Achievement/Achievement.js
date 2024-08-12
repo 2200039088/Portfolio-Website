@@ -8,6 +8,7 @@ const Achievement = () => {
   return (
     <div id='achievements' className='achievement'>
       <div className="achievement-title">
+        <h2> Heyyy... That's not all... He is far from a bookworm.</h2>
         <h1>Achievements</h1>
         <img src={theme_pattern} alt='theme-pattern' />
       </div>

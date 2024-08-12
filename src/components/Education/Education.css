@@ -90,3 +90,57 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
+
+@media (max-width : 768px) {
+
+
+    .education
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin: 40px 30px;
+    }
+
+    .education-title h1
+    {
+        font-size: 50px;
+
+    }
+
+
+    .education-container {
+        grid-template-columns: 1fr; /* Change to single column */
+        gap: 10px; /* Adjust gap for smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .education-format {
+        max-width: 350px;
+        max-height: 250px; /* Increase height to fit content */
+        overflow: hidden; /* Hide overflow */
+        padding: 20px; /* Adjust padding for smaller size */
+    }
+
+    .education-format h3
+    {
+        margin-top: 10px;
+        font-size: 50px;
+    }
+
+    .education-format h2
+    {
+        font-size: 30px;
+
+    }
+
+    .education-format p {
+        font-size: 18px; /* Reduce font size to fit */
+        line-height: 24px;
+    }
+
+
+    
+}

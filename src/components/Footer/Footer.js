@@ -1,13 +1,14 @@
 import React from 'react'
 import './Footer.css'
+import logo from '../../assets/vineel_name_logo.png'
 
 const Footer = () => {
   return (
     <div className='footer'>
         <div className='footer-top'>
             <div className="footer-top-left">
-                <img src='' alt='name-logo'/>
-                <p>Dear Recruiter, <br /> Congratulations in advance! <br/>You are about to bring 70kgs of awesomeness to your organization.<br/> Because ain't nobody like him</p>
+                <img src={logo} alt='name-logo'/>
+                <p>Dear Recruiter, <br /> Congratulations in advance! <br/>You are about to bring 70kgs of talent blended with awesomeness to your organization.<br/> Because ain't nobody like him</p>
             </div>
         </div>
 
