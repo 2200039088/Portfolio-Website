@@ -9,12 +9,15 @@ const Hero = () => {
             <h1><span> I'm Vineel Arepalli </span> <br/> CSE Undergrad, Class of 2026 </h1>
             <p> I'm a full stack developer and an aspiring DevOps Engineer</p>
             <div className="hero-action">
-            <div className="hero-connect">
-            <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/arepallivineel/" style={{ textDecoration: 'none', color: 'white' }}>Connect with me</a>
-            </div>
-            <div className="hero-resume">
-            <a target='_blank' rel="noopener noreferrer" href="https://drive.google.com/file/d/17M8Gyoe9Psgs4_OhQrVY9FYtPSO6Kke2/view?usp=share_link" style={{ textDecoration: 'none', color: 'white' }}>My Resume</a>
-            </div>
+
+                
+            <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/arepallivineel/" style={{ textDecoration: 'none', color: 'white' }}>
+            <div className="hero-connect">Connect with me</div>
+            </a>
+          
+            
+            <a target='_blank' rel="noopener noreferrer" href="https://drive.google.com/file/d/17M8Gyoe9Psgs4_OhQrVY9FYtPSO6Kke2/view?usp=share_link" style={{ textDecoration: 'none', color: 'white' }}>
+            <div className="hero-resume">My Resume</div></a>
             </div>
         </div>
     );

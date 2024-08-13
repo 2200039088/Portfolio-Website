@@ -11,7 +11,7 @@ const Contact = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
     
-        formData.append("access_key", "77b941c0-1b05-4af4-b3a9-4676c4617925");
+        formData.append("access_key", process.env.REACT_APP_WEB_FORM_API_KEY);
     
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
@@ -76,13 +76,6 @@ const Contact = () => {
 
 
         </div>
-
-
-
-
-
-        
-
       
     </div>
   )
