@@ -1,6 +1,6 @@
 .footer
 {
-    margin: 50px 170px;
+    margin: 50px 80px;
     display: flex;
     flex-direction: column;
     gap : 30px;
@@ -45,6 +45,11 @@
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+}
+
+.footer-bottom-left p
+{
+    text-align: left;
 }
 
 .footer-bottom-right
@@ -113,6 +118,10 @@
 }
 
 
+.footer-bottom-left p
+{
+    text-align: center;
+}
 
 
 

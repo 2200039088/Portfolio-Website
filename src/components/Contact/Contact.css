@@ -170,6 +170,13 @@
         margin-bottom: 0;
       }
 
+    .contact-title h1
+    {
+      margin: 10px;
+      margin-bottom: -20px;
+      font-size : 30px;
+    }
+
      .contact-title h2
      {
         display: none;

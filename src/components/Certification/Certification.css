@@ -134,21 +134,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-
-@media (max-width : 768px)
-{
-
-  .certification
-  {
-  
-  }
+@media (max-width: 768px) {
 
   .certification-title h1 {
     font-size: 40px;
     padding: 0px 10px;
   }
-
 
   .certification-title img {
     position: relative;
@@ -160,16 +151,16 @@
 
   .certification-container {
     position: relative;
-    grid-template-columns: 1fr ; /* Single column layout */
+    grid-template-columns: 1fr; /* Single column layout */
     gap: 30px;
-    left : -30px
+    left: -30px;
   }
 
   .certification-format {
     display: flex;
     flex-direction: row;
     padding: 20px;
-    gap:20px
+    gap: 20px;
   }
 
   .certification-left img {
@@ -181,18 +172,18 @@
     font-size: 24px;
   }
 
+  /* Show the s_date with smaller font size */
   .certification-right p {
-    display: none; /* Hide the description */
+    display: block; /* Make the date visible */
+    font-size: 20px; /* Adjust the font size for mobile */
+    line-height: 20px; /* Adjust the line height */
+    margin-top: 5px; /* Add some spacing between the title and date */
+    margin-left : 2px;
+    color: #ffffff; /* Keep the color white */
   }
 
   .show-more-button p {
     font-size: 30px;
   }
-
-
-
-
-
-
 
 }
