@@ -134,7 +134,7 @@ const Contact = () => {
             onChange={handleChange}
           />
 
-          <button type='submit' className='contact-submit'>Submit <br /> (It's functional)</button>
+          <button type='submit' className='contact-submit'>Submit</button>
           
           {error && <p className="error-message">{error}</p>}
         </form>
