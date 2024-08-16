@@ -90,7 +90,7 @@
   {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     gap : 30px
   }
 
@@ -188,7 +188,7 @@
 
     .contact-section {
       flex-direction: column; /* Stack items vertically */
-      align-items: center;
+      align-items: flex-start;
       gap: 40px; /* Add some space between the sections */
     }
 
@@ -198,7 +198,7 @@
     }
   
     .contact-right {
-      margin-left: -50px;   
+      align-items:first baseline;
       max-width: 100%; /* Ensure the form takes the full width */
     }
 
@@ -228,4 +228,6 @@
     transform: translateX(25px);
 
   }
+
+
   }

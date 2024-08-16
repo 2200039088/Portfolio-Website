@@ -4,8 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap : 80px;
-    margin: 40px 80px;
+    gap : 72px;
+    margin:40px 80px;
 }
 
 .education-title
@@ -33,7 +33,7 @@
 .education-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
+    gap: 30px;
     margin-bottom: 10px;
     align-items: center;
 }
@@ -113,7 +113,7 @@
 
     .education-container {
         grid-template-columns: 1fr; /* Change to single column */
-        gap: 10px; /* Adjust gap for smaller screens */
+        gap: 30px; /* Adjust gap for smaller screens */
         margin-bottom: 20px;
     }
 
@@ -140,6 +140,8 @@
         font-size: 18px; /* Reduce font size to fit */
         line-height: 24px;
     }
+
+    
 
 
     

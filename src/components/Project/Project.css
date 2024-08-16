@@ -133,7 +133,7 @@
 {
     grid-template-columns: 1fr; /* Change to single column */
     gap: 30px; /* Adjust gap for smaller screens */
-    margin-bottom: 20px;    
+    margin-bottom: 40px;    
 }
 
 .project-item

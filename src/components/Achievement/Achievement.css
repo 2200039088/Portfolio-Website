@@ -147,7 +147,7 @@
 
     .achievement-container {
       grid-template-columns: 1fr;
-      gap: 25px;
+      gap: 45px;
       margin: 40px;
       width: 100%; /* Set width to full */
       max-width: 100%; /* Ensure it uses the full available width */

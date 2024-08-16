@@ -69,15 +69,20 @@
     display: flex;
     flex-direction: column;
     gap : 30px;
-    align-items: start;
+    align-items: flex-start;
     margin-left: 15%;
 }
 
 .footer hr
 {
     position: relative;
-    transform: translateX(-10px);
-    width: 200%;
+    width: 100%;
+}
+
+.footer-top-left
+{
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-top-left img
@@ -92,7 +97,7 @@
 .footer-top-left p
 {
     font-size: 15px;
-    text-align: start;
+    text-align: flex start;
 }
 
 .footer-bottom
