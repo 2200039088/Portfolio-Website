@@ -9,7 +9,7 @@ const education_data = [
 
     {
         s_no : "02",
-        s_name : "Gudlavalleru Polytechnic College",
+        s_name : "A.A.N.M. and V.V.R.S.R. Polytechnic College",
         s_desc : "Diploma in Computer Engineering",
         s_grade : "Grade : 97%"
     },

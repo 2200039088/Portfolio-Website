@@ -9,7 +9,7 @@ const project_data = [
         s_no : '01',
         s_name : "Portfolio Project",
         s_subtitle : "Personal Project",
-        s_tech : 'MERN Stack',
+        s_tech : 'React.JS',
         s_link : "https://github.com/2200039088/Portfolio-Website",
         s_img : portfolio_project
     },

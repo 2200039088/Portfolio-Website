@@ -1,9 +1,10 @@
 import React from 'react';
 import Student from './Student';
+import { useEffect } from 'react';
 
 const App = () => {
- /*   useEffect(() => {
-    Function to handle context menu event (right-click)
+    useEffect(() => {
+   // Function to handle context menu event (right-click)
     const handleContextMenu = (event) => {
       event.preventDefault(); // Prevent the default right-click behavior
     };
@@ -20,7 +21,7 @@ const App = () => {
     return () => {
       document.removeEventListener('contextmenu', handleContextMenu);
     };
-  }, []); */
+  }, []); 
 
   return (
     <Student />

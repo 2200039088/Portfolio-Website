@@ -17,7 +17,7 @@ const About = () => {
 
         <div className="about-right">
             <div className="about-para">
-                <p> Hello, I’m Vineel, a CSE undergrad at KL University with a passion for full-stack development and cloud technologies. I’m an AWS Certified Cloud Practitioner and have a strong foundation in core CSE courses. I run a YouTube channel, “Review Tech,” where I share insights and reviews on various tech topics. Dedicated to learning and growing, I aim to make a positive impact in the tech community.</p>
+                <p> Hey there, My name is Vineel, a CSE undergrad at KL University with a passion for full-stack development and cloud technologies. I’m an AWS Certified Cloud Practitioner and have a strong foundation in core CSE courses. I run a YouTube channel, “Review Tech,” where I share insights and reviews on various tech topics. Dedicated to learning and growing, I aim to make a positive impact in the tech community.</p>
                 <p> Here is the list of technical skills I posses</p>
             </div>
             <div className="about-skills">
