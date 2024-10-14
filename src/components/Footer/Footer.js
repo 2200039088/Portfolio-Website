@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer-top'>
             <div className="footer-top-left">
                 <img src={logo} alt='name-logo'/>
-                <p>Dear Recruiter, <br /> Congratulations in advance! <br/>You are about to bring 70 kilos of talent blended with awesomeness to your organization.<br/> Because ain't nobody like him. :)</p>
+                <p>Dear Recruiter, <br /> Congratulations in advance! <br/>You are about to bring 70 kilos of talent blended with awesomeness to your organization.</p>
             </div>
         </div>
 
