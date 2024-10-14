@@ -36,7 +36,7 @@ const Hero = () => {
                     <div className="hero-connect">Connect with me</div>
                 </a>
 
-                <a target='_blank' rel="noopener noreferrer" href="https://drive.google.com/file/d/17M8Gyoe9Psgs4_OhQrVY9FYtPSO6Kke2/view?usp=share_link" style={{ textDecoration: 'none', color: 'white' }}>
+                <a target='_blank' rel="noopener noreferrer" href="https://drive.google.com/file/d/1Dio4KVmwIStjUr4h_Y5qbbPc-aXPNBR8/view?usp=sharing" style={{ textDecoration: 'none', color: 'white' }}>
                     <div className="hero-resume">My Resume</div>
                 </a>
             </div>
